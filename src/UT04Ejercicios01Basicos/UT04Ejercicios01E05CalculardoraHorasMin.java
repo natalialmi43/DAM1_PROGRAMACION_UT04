@@ -30,7 +30,7 @@ public class UT04Ejercicios01E05CalculardoraHorasMin {
 
         // Se extraen horas y minutos
         long horas = duracion.toHours(); // Saca las horas completas
-.
+
         // Se pone %60 para saber los minutos sobrantes
         long minutos = duracion.toMinutes() % 60;
 
