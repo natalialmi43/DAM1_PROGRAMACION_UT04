@@ -3,6 +3,11 @@ package UT04Ejercicios01Basicos;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+/*
+Escribe un programa que muestre la fecha actual en el formato "Hoy es día, dd de mes de yyyy"
+(ejemplo: "Hoy es miércoles, 02 de abril de 2025").
+ */
+
 public class UT04Ejercicios01E01FechaConFormato {
     public static void main(String[] args) {
 
