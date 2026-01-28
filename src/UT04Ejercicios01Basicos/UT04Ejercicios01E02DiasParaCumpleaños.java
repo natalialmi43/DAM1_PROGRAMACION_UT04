@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /*
 Crea un programa que pida al usuario su fecha de nacimiento (día y mes) y calcule cuántos días faltan para su próximo
-cumpleaños desde hoy (02/04/2025). 
+cumpleaños desde hoy (02/04/2025).
  */
 
 public class UT04Ejercicios01E02DiasParaCumpleaños {
