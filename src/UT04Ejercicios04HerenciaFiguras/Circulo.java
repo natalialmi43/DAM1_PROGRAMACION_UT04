@@ -1,4 +1,4 @@
-package UT04Ejercicios04HerenciaSencilla;
+package UT04Ejercicios04HerenciaFiguras;
 
 public class Circulo extends  Figura {
 

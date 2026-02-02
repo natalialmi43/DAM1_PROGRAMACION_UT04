@@ -1,13 +1,16 @@
-package UT04Ejercicios04HerenciaSencilla;
+package UT04Ejercicios04HerenciaFiguras;
 
 public class Figura {
 
-    private String color;
+    String color;
 
 
     public Figura(String color) {
         this.color = color;
     }
+
+
+
 
     public String toString (){
         return "El color es : " + color;
