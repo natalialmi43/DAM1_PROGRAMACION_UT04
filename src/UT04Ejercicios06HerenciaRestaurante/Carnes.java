@@ -18,6 +18,7 @@ public class Carnes extends Platos {
 
 
     public String toString (){
+
         return  super.toString() + " y quiere la carne " + gradoCoccionCarne;
     }
 
