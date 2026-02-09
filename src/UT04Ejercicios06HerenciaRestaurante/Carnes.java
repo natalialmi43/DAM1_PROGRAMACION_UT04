@@ -1,23 +1,23 @@
 package UT04Ejercicios06HerenciaRestaurante;
 
-public class Carnes  extends herenciaRestaurante.Platos {
+public class Carnes  extends Platos {
 
-    private herenciaRestaurante.GradoCoccion puntoCarne;
+    private GradoCoccion puntoCarne;
 
-    public herenciaRestaurante.GradoCoccion getPuntoCarne() {
+    public GradoCoccion getPuntoCarne() {
         return puntoCarne;
     }
 
-    public void setPuntoCarne(herenciaRestaurante.GradoCoccion puntoCarne) {
+    public void setPuntoCarne(GradoCoccion puntoCarne) {
         if (puntoCarne == null){
-            this.puntoCarne = herenciaRestaurante.GradoCoccion.AL_PUNTO;
+            this.puntoCarne = GradoCoccion.AL_PUNTO;
         } else {
             this.puntoCarne = puntoCarne;
 
         }
     }
 
-    public Carnes(String nombre, double precio, herenciaRestaurante.GradoCoccion puntoCarne) {
+    public Carnes(String nombre, double precio, GradoCoccion puntoCarne) {
         super(nombre, precio);
         setPuntoCarne(puntoCarne);
 
