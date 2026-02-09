@@ -1,27 +1,31 @@
-package UT04Ejercicios06HerenciaRestaurante;
+package herenciaRestaurante;
 
-public class Carnes extends Platos {
+public class Carnes  extends Platos {
 
-    String gradoCoccionCarne;
+    private GradoCoccion puntoCarne;
 
-
-    public Carnes(String nombrePlato, double precioPlato, String gradoCoccionCarne) {
-        super(nombrePlato, precioPlato);
-        this.gradoCoccionCarne = gradoCoccionCarne;
+    public GradoCoccion getPuntoCarne() {
+        return puntoCarne;
     }
 
-    public Carnes() {
-        if (gradoCoccionCarne != "Poco hecho" || gradoCoccionCarne != "Al punto" || gradoCoccionCarne != "Muy hecho" || gradoCoccionCarne != "Carbonizado" ){
-            this.gradoCoccionCarne = "Al punto";
+    public void setPuntoCarne(GradoCoccion puntoCarne) {
+        if (puntoCarne == null){
+            this.puntoCarne = GradoCoccion.AL_PUNTO;
+        } else {
+            this.puntoCarne = puntoCarne;
+
         }
     }
 
+    public Carnes(String nombre, double precio, GradoCoccion puntoCarne) {
+        super(nombre, precio);
+        setPuntoCarne(puntoCarne);
 
-    public String toString (){
-
-        return  super.toString() + " y quiere la carne " + gradoCoccionCarne;
     }
 
+    @Override
+    public String toString() {
 
-
+        return super.toString() +  " debe estar " + puntoCarne;
+    }
 }

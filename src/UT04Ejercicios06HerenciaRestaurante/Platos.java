@@ -1,24 +1,45 @@
-package UT04Ejercicios06HerenciaRestaurante;
+package herenciaRestaurante;
 
-public class Platos {
+public abstract class Platos {
 
-    String nombrePlato;
-    double precioPlato;
+    private String nombre;
+    private double precio;
 
 
-    public Platos(String nombrePlato, double precioPlato) {
-        this.nombrePlato = nombrePlato;
-        this.precioPlato = precioPlato;
+    public String getNombre() {
+        return nombre;
     }
 
-    public Platos() {
-        this.nombrePlato = "Por defecto";
-        this.precioPlato = 0.00;
+    public void setNombre(String nombre) {
+        if (nombre == null || nombre.isEmpty()){
+            this.nombre = "Nombre del plato por defecto";
+        } else {
+            this.nombre = nombre;
+        }
+
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+
+        if (precio < 0){
+            this.precio = 0.00;
+        } else {
+            this.precio = precio;
+        }
+    }
+
+    public Platos(String nombre, double precio) {
+        setNombre(nombre);
+        setPrecio(precio);
     }
 
 
-    public String toString (){
-        return "El " + nombrePlato + " cuesta " + precioPlato;
+    @Override
+    public String toString() {
+        return "El plato " + nombre + " cuesta " + precio + "€";
     }
-
 }

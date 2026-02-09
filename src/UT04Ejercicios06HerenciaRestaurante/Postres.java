@@ -1,23 +1,24 @@
-package UT04Ejercicios06HerenciaRestaurante;
+package herenciaRestaurante;
 
-public class Postres extends  Platos {
-    boolean tieneAzucarElPostre;
+public class Postres extends Platos {
 
-    public Postres(String nombrePlato, double precioPlato, boolean tieneAzucarElPostre) {
-        super(nombrePlato, precioPlato);
-        this.tieneAzucarElPostre = tieneAzucarElPostre;
+    private boolean tieneAzucar;
+
+    public boolean getTieneAzucar() {
+        return tieneAzucar;
     }
 
-    public Postres() {
-        this.tieneAzucarElPostre = true;
+    public void setTieneAzucar(boolean tieneAzucar) {
+        this.tieneAzucar = tieneAzucar;
     }
 
-    public String toString (){
-        if (tieneAzucarElPostre){
-            return super.toString() + " el postre tiene azúcar";
-        } else {
-            return super.toString() + " el postre no tiene azúcar";
-        }
+    public Postres(String nombre, double precio, boolean tieneAzucar) {
+        super(nombre, precio);
+        this.tieneAzucar = tieneAzucar;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " es un postre, y " + (tieneAzucar ? " tiene azúcar" : " no tiene azúcar");
+    }
 }

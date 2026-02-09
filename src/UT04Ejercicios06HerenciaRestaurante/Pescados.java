@@ -1,9 +1,13 @@
-package UT04Ejercicios06HerenciaRestaurante;
+package herenciaRestaurante;
 
-public class Pescados extends Platos {
+public class Pescados  extends  Platos {
 
-    public Pescados(String nombrePlato, double precioPlato) {
-        super(nombrePlato, precioPlato);
+    public Pescados(String nombre, double precio) {
+        super(nombre, precio);
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " es pescado";
+    }
 }

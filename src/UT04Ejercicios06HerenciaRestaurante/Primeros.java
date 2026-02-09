@@ -1,28 +1,25 @@
-package UT04Ejercicios06HerenciaRestaurante;
+package herenciaRestaurante;
 
 public class Primeros extends Platos {
 
-    boolean compartirPrimeros;
 
-    public Primeros(String nombrePlato, double precioPlato, boolean compartirPrimeros) {
-        super(nombrePlato, precioPlato);
-        this.compartirPrimeros = compartirPrimeros;
+    private boolean esParaCompartir;
+
+    public boolean getEsParaCompartir() {
+        return esParaCompartir;
     }
 
-    public Primeros() {
-        this.compartirPrimeros = true;
+    public void setEsParaCompartir(boolean esParaCompartir) {
+       this.esParaCompartir = esParaCompartir;
     }
 
-    public String toString (){
-
-        if (compartirPrimeros){
-            return super.toString() + " es un primero, y se va a compartir";
-
-        } else {
-            return super.toString() + " es un primero, y no se va a compartir";
-
-        }
+    public Primeros(String nombre, double precio, boolean esParaCompartir) {
+        super(nombre, precio);
+        this.esParaCompartir = esParaCompartir;
     }
 
-
+    @Override
+    public String toString() {
+        return super.toString() + " es " + (esParaCompartir ? "para compartir" : "indiviudal") ;
+    }
 }
