@@ -1,4 +1,4 @@
-package herenciaRestaurante;
+package UT04Ejercicios06HerenciaRestaurante;
 
 public class Main {
     public static void main(String[] args) {

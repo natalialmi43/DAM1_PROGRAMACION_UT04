@@ -1,4 +1,4 @@
-package herenciaRestaurante;
+package UT04Ejercicios06HerenciaRestaurante;
 
 import java.util.Arrays;
 
