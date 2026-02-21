@@ -5,7 +5,6 @@ public class VideojuegoXbox {
     boolean necesitaGamepass;
 
     public VideojuegoXbox(String nombre, double precio, boolean necesitaGamepass) {
-        super(nombre, precio);
         this.necesitaGamepass = necesitaGamepass;
     }
 
