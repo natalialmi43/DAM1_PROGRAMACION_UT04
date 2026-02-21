@@ -1,4 +1,4 @@
-package UT04Ejercicios08Interfaces.SistemaDeNotificaciones;
+package UT04Ejercicios08Interfaces.E01SistemaDeNotificaciones;
 
 public class SMSNotificador implements Notificador {
 

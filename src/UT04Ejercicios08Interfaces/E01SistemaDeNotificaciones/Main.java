@@ -1,6 +1,4 @@
-package UT04Ejercicios08Interfaces.SistemaDeNotificaciones;
-
-import java.util.Arrays;
+package UT04Ejercicios08Interfaces.E01SistemaDeNotificaciones;
 
 public class Main {
     static void main(String[] args) {
