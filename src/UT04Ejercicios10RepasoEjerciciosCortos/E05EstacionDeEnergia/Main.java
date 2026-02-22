@@ -1,4 +1,4 @@
-package UT04Ejercicios10Repaso.E05EstacionDeEnergia;
+package UT04Ejercicios10RepasoEjerciciosCortos.E05EstacionDeEnergia;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package UT04Ejercicios10Repaso.E03AlmacenContable;
+package UT04Ejercicios10RepasoEjerciciosCortos.E03AlmacenContable;
 
 public class Main {
     public static void main(String[] args) {

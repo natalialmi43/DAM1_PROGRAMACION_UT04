@@ -1,4 +1,4 @@
-package UT04Ejercicios10Repaso.E04GestionElectroAvila;
+package UT04Ejercicios10RepasoEjerciciosCortos.E04GestionElectroAvila;
 
 public abstract class Electrodomestico {
 

@@ -1,4 +1,4 @@
-package UT04Ejercicios10Repaso.E04GestionElectroAvila;
+package UT04Ejercicios10RepasoEjerciciosCortos.E04GestionElectroAvila;
 
 public class Main {
     public static void main(String[] args) {

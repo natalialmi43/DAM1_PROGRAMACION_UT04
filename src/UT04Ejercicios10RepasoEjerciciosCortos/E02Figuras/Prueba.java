@@ -1,4 +1,4 @@
-package UT04Ejercicios10Repaso.E02Figuras;
+package UT04Ejercicios10RepasoEjerciciosCortos.E02Figuras;
 
 public class Prueba {
 

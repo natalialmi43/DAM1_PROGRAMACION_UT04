@@ -1,4 +1,4 @@
-package UT04Ejercicios10Repaso.E01SistemaDeEmpleados;
+package UT04Ejercicios10RepasoEjerciciosCortos.E01SistemaDeEmpleados;
 
 public class Prueba {
     public static void main(String[] args) {
