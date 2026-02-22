@@ -44,11 +44,13 @@ public abstract class Vehiculo  implements Transportable {
     @Override
     public void viajar(double distancia) throws IllegalArgumentException {
 
+        double gasto = calcularConsumo(distancia);
+
         if (combustibleRestante <= 0){
             throw new IllegalArgumentException("No tienes combustible");
         }
 
-        combustibleRestante -= calcularConsumo(distancia);
+        combustibleRestante -= gasto;
 
         kmRecorridos += distancia;
 

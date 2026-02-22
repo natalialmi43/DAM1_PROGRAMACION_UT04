@@ -24,6 +24,7 @@ public class Camion extends Vehiculo {
     @Override
     protected double calcularConsumo(double distancia) {
 
-        return (distancia * 0.1) + (cargaActual * 0.01);
+        double gastoPorKm = 0.1 + ((this.cargaActual / 1000.0) * 0.01);
+        return gastoPorKm * distancia;
     }
 }

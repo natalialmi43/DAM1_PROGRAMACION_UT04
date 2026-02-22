@@ -47,11 +47,14 @@ public class Burro implements Transportable {
     @Override
     public void viajar(double distancia) throws IllegalArgumentException {
 
+        // Importante poner esto antes del if.
+        double gasto = distancia * 3;
+
         if (energiaRestante <= 0){
             throw new IllegalArgumentException("Sin energia");
         }
 
-        energiaRestante -= distancia * 3;
+        energiaRestante -= gasto;
 
         System.out.println("Te queda " + energiaRestante + " combustible restante");
 

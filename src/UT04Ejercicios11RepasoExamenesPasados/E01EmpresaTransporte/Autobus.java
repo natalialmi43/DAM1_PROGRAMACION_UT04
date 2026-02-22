@@ -23,6 +23,9 @@ public class Autobus extends Vehiculo {
 
     @Override
     protected double calcularConsumo(double distancia) {
-        return (distancia * 0.08) + (pasajerosActuales * 0.005);
+
+        double gasto = 0.08 + (pasajerosActuales * 0.005);
+
+        return distancia * gasto;
     }
 }
