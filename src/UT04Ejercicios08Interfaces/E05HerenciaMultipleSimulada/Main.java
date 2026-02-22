@@ -10,7 +10,15 @@ public class Main {
 
         c1 [1].encender();
 
-        // Ahora intenta meter una Lámpara y un Móvil en un array de Recargable. ¿Por qué da error la lámpara? ¿Cómo lo solucionarías en el código?
+        /*
+
+         Ahora intenta meter una Lámpara y un Móvil en un array de Recargable. ¿Por qué da error la lámpara?
+         ¿Cómo lo solucionarías en el código?
+
+         La única forma técnica y profesional de solucionarlo en el código para que el sistema la acepte es cambiar el
+         contrato de la lámpara.
+
+         */
 
 
     }
