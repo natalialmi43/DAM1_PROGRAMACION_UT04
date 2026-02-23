@@ -18,9 +18,12 @@ public class RoversDeSuperficie extends VehiculosMotorizados {
     public void setCompartimentoRocasKg(double compartimentoRocasKg) {
         this.compartimentoRocasKg = compartimentoRocasKg;
     }
+}
 
+/*
     @Override
     protected double consumoBateriaDispositivo(double kmRecorridos) {
         return kmRecorridos * (2 + (0.5*compartimentoRocasKg));
     }
 }
+*/

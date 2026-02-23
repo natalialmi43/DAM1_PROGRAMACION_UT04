@@ -37,10 +37,13 @@ public class VehiculosMotorizados extends Elementos {
         }
     }
 
+    /*
     protected abstract double consumoBateriaDispositivo(double kmRecorridos);
 
     public double consumoBateria (){
 
         return consumoBateriaDispositivo(double kmRecorridos);
     }
+
+     */
 }
