@@ -1,0 +1,8 @@
+package UT04Ejercicios11RepasoExamenesPasados.E01Transportes;
+
+public class SinCombustible extends Exception {
+
+    public SinCombustible(String message) {
+        super(message);
+    }
+}
