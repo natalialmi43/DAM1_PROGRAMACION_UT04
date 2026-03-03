@@ -1,6 +1,6 @@
 package UT04Ejercicios06HerenciaRestaurante;
 
-public class Pescados  extends herenciaRestaurante.Platos {
+public class Pescados  extends Platos {
 
     public Pescados(String nombre, double precio) {
         super(nombre, precio);
